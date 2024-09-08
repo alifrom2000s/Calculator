@@ -19,7 +19,7 @@ def calculator():
         print("Enter 'multiply' for multiplication")
         print("Enter 'divide' for division")
         print("Enter 'average'for average")
-        print("Enter 'quit' to end program")
+        print("Enter 'quit' to end program", end=" ")
 
         user_input = input(":")
 
@@ -44,8 +44,10 @@ def calculator():
                ("Result:",result)
            elif user_input=="average":
              print("Result:",average(num1,num2))
+          
            else:
              print("Result:",result)
+          
         else:
          print("Invalid Operation,PLZ enter a valid operation!!")
 
